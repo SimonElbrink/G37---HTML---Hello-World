@@ -7,28 +7,16 @@
 <head>
     <Title>Hello World</Title>
 
+    <!-- You can write a stylingsheet in a outhe file. 
+        Connecting with a link (Somthing like "Import") -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- You can write a styling in the head -->
     <style>
-
-        /* 
-        Tageting the Body
-        Changing the Font family for all the elements in Body
-        */
-        body{
-            font-family: 'Courier New', Courier, monospace;
+        #lastheading {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 5px;
         }
-
-        /*
-        Targeting the Id headingTwo. #
-        Should be use on a restricted element.
-        */
-        #headingTwo{font-size: 50;}
-
-        /*
-        Targeting a class headingTwo. .
-        Can be used by many elements.
-        */
-        .headings {color: green;}
-
     </style>
 </head>
 
@@ -41,7 +29,7 @@
     <h3 class="headings">Hello World</h3>
     <h4 class="headings">Hello World</h4>
 
-    <h5>Hello World</h5>
+    <h5 id="lastheading">Hello World</h5>
 
 </Body>
 

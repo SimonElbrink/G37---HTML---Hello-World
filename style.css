@@ -1,0 +1,19 @@
+        /* 
+        Tageting the Body
+        Changing the Font family for all the elements in Body
+        */
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /*
+        Targeting the Id headingTwo. #
+        Should be use on a restricted element.
+        */
+        #headingTwo{font-size: 50;}
+
+        /*
+        Targeting a class headingTwo. .
+        Can be used by many elements.
+        */
+        .headings {color: green;}
